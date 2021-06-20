@@ -1,0 +1,3 @@
+# falco-si
+en esta carpeta hay dos archivos formato falco 330 y formato  casos de uso
+este  es mi archivo readme  donde explico todo los avances de mi proyecto ....
