@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2020-11-12" view-index="0" gantt-divider-location="247" resource-divider-location="300" version="3.0.3005" locale="es_ES">
+    <description/>
+    <view zooming-state="default:2" id="gantt-chart">
+        <field id="tpd3" name="Nombre" width="126" order="0"/>
+        <field id="tpd4" name="Fecha de inicio" width="51" order="1"/>
+        <field id="tpd5" name="Fecha de fin" width="51" order="2"/>
+        <timeline>
+            <![CDATA[36,5,66,60,54,39,20,3,16,0,51,42,64,32,62,1,68,24,18,28,48,13,22,34,45]]>
+        </timeline>
+        <option id="color.recent">
+            <![CDATA[#ff0033 #ff3300 #0000ff #33ff33 #00ff00 #33ffff]]>
+        </option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Nombre" width="206" order="0"/>
+        <field id="1" name="Función" width="90" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="0" name="fase de analisis" color="#33ff33" shape="1,0,1,0,0,1,0,1,1,0,1,0,0,1,0,1" meeting="false" start="2020-11-30" duration="14" complete="100" thirdDate="2020-11-30" thirdDate-constraint="1" expand="true">
+            <depend id="13" type="2" difference="0" hardness="Strong"/>
+            <task id="1" name="Identificaciondel proyecto" color="#0000ff" shape="1,0,1,0,0,1,0,1,1,0,1,0,0,1,0,1" meeting="false" start="2020-11-30" duration="5" complete="100" thirdDate="2020-11-30" thirdDate-constraint="0" expand="true">
+                <notes>
+                    <![CDATA[Definir 
+planteamiento del problema 
+objetivo general 
+objetivos especificos ]]>
+                </notes>
+                <depend id="3" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="3" name="Diseño BPMN" color="#0000ff" shape="1,0,1,0,0,1,0,1,1,0,1,0,0,1,0,1" meeting="false" start="2020-12-07" duration="5" complete="100" thirdDate="2020-11-27" thirdDate-constraint="0" expand="true">
+                <notes>
+                    <![CDATA[Se diseño el diagrama BPMN]]>
+                </notes>
+                <depend id="5" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="5" name="Casos de usos" color="#ff3300" shape="1,0,1,0,0,1,0,1,1,0,1,0,0,1,0,1" meeting="false" start="2020-12-14" duration="4" complete="100" thirdDate="2020-11-27" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="13" name="Encuesta" color="#8cb6ce" shape="1,0,1,0,0,1,0,1,1,0,1,0,0,1,0,1" meeting="false" start="2020-12-18" duration="6" complete="100" thirdDate="2020-11-25" thirdDate-constraint="0" expand="true">
+            <notes>
+                <![CDATA[aplicacion y recoleccion de datos]]>
+            </notes>
+            <depend id="16" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="16" name="diagrama de clases" color="#8cb6ce" shape="1,0,1,0,0,1,0,1,1,0,1,0,0,1,0,1" meeting="false" start="2020-12-28" duration="5" complete="100" thirdDate="2020-12-21" thirdDate-constraint="0" expand="true">
+            <depend id="18" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="18" name="diagrama de colaboracion -componentes" color="#8cb6ce" shape="1,0,1,0,0,1,0,1,1,0,1,0,0,1,0,1" meeting="false" start="2021-01-04" duration="5" complete="100" thirdDate="2020-12-09" thirdDate-constraint="0" expand="true">
+            <depend id="20" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="20" name="diagramade paquetes-estado" color="#8cb6ce" shape="1,0,1,0,0,1,0,1,1,0,1,0,0,1,0,1" meeting="false" start="2021-01-11" duration="5" complete="100" thirdDate="2020-12-09" thirdDate-constraint="0" expand="true">
+            <depend id="22" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="22" name="diagrama de objetos-secuencial" color="#8cb6ce" shape="1,0,1,0,0,1,0,1,1,0,1,0,0,1,0,1" meeting="false" start="2021-01-18" duration="5" complete="100" thirdDate="2020-12-09" thirdDate-constraint="0" expand="true">
+            <depend id="24" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="24" name="caso de uso extendido" color="#8cb6ce" shape="1,0,1,0,0,1,0,1,1,0,1,0,0,1,0,1" meeting="false" start="2021-01-25" duration="5" complete="100" thirdDate="2021-02-10" thirdDate-constraint="0" expand="true">
+            <depend id="28" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="28" name="tabla de relaciones 1,2" color="#8cb6ce" shape="1,0,1,0,0,1,0,1,1,0,1,0,0,1,0,1" meeting="false" start="2021-02-01" duration="5" complete="100" thirdDate="2021-02-10" thirdDate-constraint="0" expand="true">
+            <depend id="32" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="32" name="MER" color="#8cb6ce" shape="1,0,1,0,0,1,0,1,1,0,1,0,0,1,0,1" meeting="false" start="2021-02-08" duration="5" complete="100" thirdDate="2021-02-10" thirdDate-constraint="0" expand="true">
+            <depend id="34" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="34" name="BASE WORKBEANCH" color="#8cb6ce" shape="1,0,1,0,0,1,0,1,1,0,1,0,0,1,0,1" meeting="false" start="2021-02-15" duration="6" complete="100" thirdDate="2021-02-10" thirdDate-constraint="0" expand="true">
+            <depend id="36" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="36" name="BASE MSQL" color="#8cb6ce" shape="1,0,1,0,0,1,0,1,1,0,1,0,0,1,0,1" meeting="false" start="2021-02-23" duration="6" complete="100" thirdDate="2021-02-10" thirdDate-constraint="0" expand="true">
+            <depend id="39" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="39" name="BASE DE DATOS FALCO" color="#8cb6ce" shape="1,0,1,0,0,1,0,1,1,0,1,0,0,1,0,1" meeting="false" start="2021-03-03" duration="5" complete="100" thirdDate="2021-02-10" thirdDate-constraint="0" expand="true">
+            <depend id="42" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="42" name="PROYECTO GITHUB" color="#8cb6ce" shape="1,0,1,0,0,1,0,1,1,0,1,0,0,1,0,1" meeting="false" start="2021-03-10" duration="5" complete="100" thirdDate="2021-02-10" thirdDate-constraint="0" expand="true">
+            <depend id="45" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="45" name="DICCIONARIO DE DATOS" color="#8cb6ce" shape="1,0,1,0,0,1,0,1,1,0,1,0,0,1,0,1" meeting="false" start="2021-03-17" duration="5" complete="100" thirdDate="2021-02-10" thirdDate-constraint="0" expand="true">
+            <depend id="48" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="48" name="gastos y costos" color="#8cb6ce" shape="1,0,1,0,0,1,0,1,1,0,1,0,0,1,0,1" meeting="false" start="2021-03-24" duration="6" complete="100" thirdDate="2021-02-10" thirdDate-constraint="0" expand="true">
+            <depend id="51" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="51" name="Diagrama de Gantt" color="#8cb6ce" shape="1,0,1,0,0,1,0,1,1,0,1,0,0,1,0,1" meeting="false" start="2021-04-01" duration="5" complete="100" thirdDate="2021-02-10" thirdDate-constraint="0" expand="true">
+            <depend id="54" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="54" name="programacion en visual" color="#8cb6ce" shape="1,0,1,0,0,1,0,1,1,0,1,0,0,1,0,1" meeting="false" start="2021-04-26" duration="5" complete="0" thirdDate="2021-04-26" thirdDate-constraint="1" expand="true">
+            <depend id="60" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="60" name="Ejercios practico edad" color="#8cb6ce" shape="1,0,1,0,0,1,0,1,1,0,1,0,0,1,0,1" meeting="false" start="2021-05-03" duration="5" complete="0" thirdDate="2021-05-03" thirdDate-constraint="1" expand="true">
+            <depend id="62" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="62" name="ejercicio practico operaciones basicas" color="#8cb6ce" shape="1,0,1,0,0,1,0,1,1,0,1,0,0,1,0,1" meeting="false" start="2021-05-10" duration="5" complete="0" thirdDate="2021-05-10" thirdDate-constraint="1" expand="true">
+            <depend id="64" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="64" name="notas mayores menores visual" color="#8cb6ce" shape="1,0,1,0,0,1,0,1,1,0,1,0,0,1,0,1" meeting="false" start="2021-05-17" duration="5" complete="0" thirdDate="2021-05-17" thirdDate-constraint="1" expand="true">
+            <depend id="66" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="66" name="Deciones complejas c++" color="#8cb6ce" shape="1,0,1,0,0,1,0,1,1,0,1,0,0,1,0,1" meeting="false" start="2021-05-24" duration="5" complete="0" thirdDate="2021-05-24" thirdDate-constraint="1" expand="true">
+            <depend id="68" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="68" name="ciclos c++" color="#8cb6ce" shape="1,0,1,0,0,1,0,1,1,0,1,0,0,1,0,1" meeting="false" start="2021-05-31" duration="5" complete="0" thirdDate="2021-05-31" thirdDate-constraint="1" expand="true"/>
+    </tasks>
+    <resources>
+        <resource id="3" name="Ilba Alcida Russi Millan" function="Default:1" contacts="iarussi@misena.edu.co" phone="3208128404">
+            <rate name="standard" value="56666"/>
+        </resource>
+    </resources>
+    <allocations>
+        <allocation task-id="1" resource-id="3" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="3" resource-id="3" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="5" resource-id="3" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="13" resource-id="3" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="16" resource-id="3" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="18" resource-id="3" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="20" resource-id="3" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="22" resource-id="3" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="24" resource-id="3" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="28" resource-id="3" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="32" resource-id="3" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="34" resource-id="3" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="36" resource-id="3" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="39" resource-id="3" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="42" resource-id="3" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="45" resource-id="3" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="48" resource-id="3" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="51" resource-id="3" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="54" resource-id="3" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="60" resource-id="3" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="62" resource-id="3" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="64" resource-id="3" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="66" resource-id="3" function="Default:1" responsible="true" load="100.0"/>
+    </allocations>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>
